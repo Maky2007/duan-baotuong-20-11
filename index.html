@@ -7,30 +7,46 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .content p{
-            color: black;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: space-around;
-            background-color: #333;
-            
+            color: #42426F;
+            font-size: 20px;
         }
         
-        nav ul li {
-            display: inline;
+        #footer-mot{
+            font-size: 40px;
+            font-weight: bold;
+            padding-top: 30px;
+            color:crimson;
         }
-
-        nav ul li a {
-            display: block;
-            color: white;
+        .footer-tieude{
+            color: rgb(7, 255, 7);
+            font-size: 30px;
+        }
+        #thayco-img{
+            margin-top: 70px;
+        }
+        .form{
+            background-color: white;
+            font-size: 30px;
+            padding: 30px 0;
+        }
+        .form h2{
             text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
+            color: #0000ff;
         }
-
+        .form h3{
+            color: rgb(45, 169, 62);
+        }
+        .form-1{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .form input{
+            font-size: 30px;
+        }
+        .nguon{
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -42,7 +58,6 @@
         <div class="dieuhuong">
             <nav>
                 <ul>
-                    <li><a href="#gioithieu">Giới thiệu</a></li>
                     <li><a href="#loingo">Lời ngỏ</a></li>
                     <li><a href="#anhdep">Khoảng khắc đáng nhớ</a></li>
                     <li><a href="#loiket">Lời kết</a></li>
@@ -54,10 +69,7 @@
         </div>
         <div class="noidung_chinh" style="display: flex;">
             <div class="noidung_trai">
-                <div class="gioithieu" id="gioithieu"> 
-                    <h2>GIỚI THIỆU</h2>
-                    <p>Ngày 20/11 hàng năm là dịp để chúng ta tri ân công lao to lớn của các thầy cô giáo, những người đã dìu dắt chúng ta trên con đường học vấn, truyền đạt những kiến thức quý báu và dạy dỗ chúng ta nên người. Ngày này, chúng ta hãy cùng nhau gửi đến các thầy cô những lời chúc tốt đẹp nhất, để ghi nhận công lao to lớn của họ.</p>
-                </div>
+                
                 <div class="loingo" id="loingo">
                     <h2>LỜI NGỎ</h2>
                     <p>Mùa thu tháng mười một, gió nhẹ nhàng thổi đưa những chiếc lá vàng rơi.  Cùng với đó là những lời tri ân sâu sắc dành cho những người lái đò thầm lặng, những người đã thắp sáng ngọn đèn tri thức, dẫn dắt chúng ta đến bến bờ tương lai.  Ngày 20/11, hãy cùng nhau gửi đến các thầy cô những lời chúc tốt đẹp nhất, để ghi nhận công lao to lớn của họ. </p>
@@ -69,21 +81,15 @@
                         <p>Hình ảnh người thầy Chu Văn An với lòng chính trực, không màng danh lợi, dâng "Thất trảm sớ" để can gián vua Trần Minh Tông là minh chứng cho tinh thần trách nhiệm cao cả của một nhà giáo chân chính. Ông không chỉ dạy chữ, mà còn dạy đạo lý làm người, là biểu tượng của lòng tận tụy và đức thanh cao trong nghề dạy học.</p>
                     </div>
                     <div class="thayco-2">
-                        <img src="img/thay-chu-van-an-1542248629-9811-1542248756.jpg" alt="" height="310px" width="350px" style="padding-left:20px;">
+                        <img src="img/thay-chu-van-an-1542248629-9811-1542248756.jpg" alt="" height="310px" width="350px" style="padding-left:20px;" id="thayco-img">
                     </div>
                     
                 </div>
                 <div class="danhngon">
                     <h2>DANH NGÔN VỀ GIÁO DỤC</h2>
-                    <blockquote>
                         <p>"Giáo dục là vũ khí mạnh nhất mà bạn có thể sử dụng để thay đổi thế giới." - Nelson Mandela</p>
-                    </blockquote>
-                    <blockquote>
                         <p>"Người thầy giỏi là người biết khơi dậy ngọn lửa sáng tạo trong tâm hồn học trò." - Albert Einstein</p>
-                    </blockquote>
-                    <blockquote>
                         <p>"Giáo dục không phải là đổ đầy một thùng nước, mà là thắp sáng một ngọn lửa." - William Butler Yeats</p>
-                    </blockquote>
                 </div>
                 <div class="tamguongsang">
                     <h2>TẤM GƯƠNG SÁNG</h2>
@@ -91,18 +97,13 @@
                     <p>Một trong những tấm gương sáng đó là thầy giáo Nguyễn Ngọc Ký. Dù bị liệt cả hai tay từ nhỏ, thầy vẫn kiên trì học viết bằng chân và trở thành một nhà giáo ưu tú. Câu chuyện của thầy là minh chứng cho ý chí và nghị lực phi thường, là nguồn động viên lớn lao cho biết bao thế hệ học trò.</p>
                     <p>Chúng ta hãy cùng nhau noi gương những người thầy, người cô, những tấm gương sáng trong cuộc sống để không ngừng nỗ lực, vươn lên và đạt được những thành công trong tương lai.</p>
                 </div>
+                <div class="video">
+                    <h2>LỊCH SỬ 20-11</h2>
+                    <video src="video/Lịch Sử Ít Người Biết Về Ngày Nhà Giáo Việt Nam 20-11.mp4" width="765px" controls></video>
+                </div>
                 <div class="anhdep" id="anhdep">
                     <h2>Khoảng khắc đáng nhớ</h2>
-                    <!-- thay video khac vao day -->
-                    <video src="video/6366256379692.mp4" controls width="300px" height="300px"></video>
-                    <!-- bỏ ảnh vô đây  -->
-                    <img src="" alt="anh1">
-                    <img src="" alt="anh2">
-                    <img src="" alt="anh3">
-                    <img src="" alt="anh4">
-                    <img src="" alt="anh5">
-
-                    
+                    <video src="video/6366256379692.mp4" controls width="765px" ></video>
                 </div>
                 <div class="loitrian">
                     <h2>LỜI TRI ÂN</h2>
@@ -117,7 +118,7 @@
             </div>
             <div class="noidung_phai">
                 <div class="nhac" id="nhac">
-                    <h2 style="margin-bottom:10px;">NHẠC TRI ÂN GIÁO VIÊN</h2>
+                    <h2 style="margin-bottom:10px;">NHẠC TRI ÂN THẦY CÔ</h2>
                     <audio src="music/NguoiThay-PhuongMyChi-4675034.mp3" controls></audio>
                     <div class="tacgia" style="display: flex;">
                         <h3>Tác giả : Nguyễn Nhất Huy</h3>
@@ -154,19 +155,52 @@
                  </div>
             </div>
         </div>
+        
+        <div class="form">
+            <h2 style="margin: 10px 0 ;">ĐÁNH GIÁ SẢN PHẨM</h2>
+            <div class="form-1">
+                <form>
+                    <h3 class="mot">THÔNG TIN</h3>
+                    <label>Họ và Tên :</label>
+                    <input type="text" id="nah" ><br>
+                    <label>Lớp :</label>
+                    <input type="number"><br>
+                    <h3 class="hai">ĐÁNH GIÁ</h3>
+                    <label>
+                        5 sao :<input type="radio" value="5sao" name="sao">
+                    </label><br>
+                    <label>
+                        4 sao :<input type="radio" value="4sao" name="sao">
+                    </label><br>
+                    <label>
+                        3 sao :<input type="radio" value="3sao" name="sao">
+                    </label><br>
+                    <label>
+                        2 sao :<input type="radio" value="2sao" name="sao">
+                    </label><br>
+                    <label>
+                        1 sao :<input type="radio" value="1sao" name="sao">
+                    </label><br>
+                    <label>Bài đánh giá :</label>
+                    <textarea name="đánh giá" rows="4" cols="50"></textarea><br>
+                    <input type="submit" value="Đánh Giá"id="nutgui">
+                </form>
+            </div>
+            
+        </div>
     </div>
     <div class="footer" style="text-align: center;">
+        <p id="footer-mot">"TÔN SƯ TRỌNG ĐẠO - UỐNG NƯỚC  NHỚ NGUỒN"</p>
         <div class="footer-banquyen" id="footer-banquyen">
-            <h2>BẢN QUYỀN</h2>
+            <h2 class="footer-tieude">BẢN QUYỀN</h2>
             <p>© 2025 - Bản quyền thuộc về nhóm 1</p>
             <p>Địa chỉ: Trường THPT Ea H'Leo, Thị Trấn Ea Drang , Huyện Ea H'Leo , Tỉnh Đắk Lắk, Việt Nam</p>
             <p>Bất cứ thắc mắc nào xin vui lòng liên hệ nhóm trưởng hoặc nhóm phó</p>
             <p>Gmail: Vminhduong2k7@gmail.com SĐT: 0912345678</p>
             <p></p>
         </div>
-        <hr width="40%" size="3px" color="black" style="margin: 0 auto;">
-        <div class="footer-thanhvien" style="margin-top: 20px;">
-            <h2>THÀNH VIÊN</h2>
+        <div class="footer-thanhvien">
+            <h2 class="footer-tieude">THÀNH VIÊN</h2>
             <ul>
                 <li>Họ Tên : Dương Văn Minh</li>
                 <li>Nhiệm vụ : HTML ,CSS</li>
@@ -213,10 +247,15 @@
                 <li>Gmail :</li>
             </ul>
         </div>
-        <hr width="40%" size="3px" color="black" style="margin: 0 auto;">
-        <div class="footer-nguon">
-            <h2>NGUỒN</h2>
-            <!-- Viết nguồn vô đây -->
+        <div class="footer-nguon" style="font-size: 20px;">
+            <h2 class="footer-tieude">NGUỒN</h2>
+            <a href="https://images.app.goo.gl/diDix7QV9wNHcQWX8" class="nguon">1</a><br>
+            <a href="https://vio.edu.vn/tin-tuc/nhung-cau-danh-ngon-hay-va-y-nghia-nhat-ve-thay-co-giao/" class="nguon">2</a><br>
+            <a href="https://cellphones.com.vn/sforum/bao-tuong-20-11" class="nguon">3</a><br>
+            <a href="https://vietnamnet.vn/nhung-mau-bao-tuong-ngay-nha-giao-viet-nam-20-11-dep-nhat-2340972.html" class="nguon">4</a><br>
+            <a href="https://comem.vn/tho-20-11-ngan?srsltid=AfmBOorhe8BRGM_rCTLq0dmjxK1DYisJ92T9yBaaoGeqSHny4kZD_9N5" class="nguon">5</a><br>
+            <a href="https://hopamviet.vn/info/composer/152/nguyen-nhat-huy.html" class="nguon">6</a><br>
+            <a href="https://vi.wikipedia.org/wiki/Ph%C6%B0%C6%A1ng_M%E1%BB%B9_Chi" class="nguon">7</a>
         </div>
     </div>
 </body>

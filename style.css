@@ -15,10 +15,12 @@ body{
     height: 300px;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff    ;
+    background-color: #F0FFF0;    
 }
 .header h1{
     font-size: 80px;
+    color: navy;
+
 }
 .header img{
     width: 300px;
@@ -49,7 +51,27 @@ body{
     padding: 20px;
     margin: 20px ;
     border: 1px solid rgba(0, 0, 0, 0.273);
-    background-color: #FFFFFF;
+    background-color: #ffffff;
+    color: #42426F;
     border-radius: 10PX;
     text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
 }
